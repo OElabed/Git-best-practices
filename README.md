@@ -22,3 +22,8 @@ Date:   Tue Jul 12 10:56:49 2011 -0700
 ```sh
 $ git merge origin
 ```
+### Show changes in a commit
+
+```sh
+$ git show <COMMIT>
+```
