@@ -1,2 +1,24 @@
 # Git-best-practices
 Git best practices for devloppers
+
+### Get changes from origin 
+How to see the changes that were pulled on a `git pull`
+```sh
+$ git fetch
+[...]
+From github.com:blah
+   00f82fa..38e4017  master     -> origin/master
+```
+
+```sh
+$ git log HEAD..origin
+commit 38e4017bc89a6eb41252465cbde68f7d897377cb
+Author: Werner Robitza
+Date:   Tue Jul 12 10:56:49 2011 -0700
+
+    Edited Gemfile via GitHub
+```
+
+```sh
+$ git merge origin
+```
