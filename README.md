@@ -27,3 +27,16 @@ $ git merge origin
 ```sh
 $ git show <COMMIT>
 ```
+
+### Check if pull needed in Git
+
+To bring your remote refs up to date
+
+```sh
+$ git remote update
+```
+Check if the branch you are tracking is ahead
+
+```sh
+$ git status -uno
+```
