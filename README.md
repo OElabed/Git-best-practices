@@ -40,3 +40,10 @@ Check if the branch you are tracking is ahead
 ```sh
 $ git status -uno
 ```
+
+### Revert a simple file to last commit
+
+ git checkout -- FCOMMON\WebContent\css\hit-layout.css
+```sh
+$ git checkout -- <path-of-file>
+```
