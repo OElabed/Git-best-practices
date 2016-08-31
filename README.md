@@ -43,7 +43,21 @@ $ git status -uno
 
 ### Revert a simple file to last commit
 
- git checkout -- FCOMMON\WebContent\css\hit-layout.css
 ```sh
 $ git checkout -- <path-of-file>
 ```
+
+### Checkout a remote branch to local
+
+To show all branch 
+
+```sh
+$ git branch -v -a
+```
+
+To show all branch 
+
+```sh
+$ git checkout -b <name_local_branch> origin/branch_name
+```
+
