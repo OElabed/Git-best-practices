@@ -61,3 +61,17 @@ To show all branch
 $ git checkout -b <name_local_branch> origin/branch_name
 ```
 
+
+### Push a local branch to Origin
+
+you can checkout a new branch 
+
+```sh
+$ git checkout -b <branch>
+```
+
+Then push with the -u option 
+
+```sh
+$ git push -u origin <branch>
+```
