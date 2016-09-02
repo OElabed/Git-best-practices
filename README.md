@@ -75,3 +75,10 @@ Then push with the -u option
 ```sh
 $ git push -u origin <branch>
 ```
+
+### Update a local branch with the changes from a tracked remote branch
+
+```sh
+$ git pull
+```
+
